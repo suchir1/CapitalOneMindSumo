@@ -1,1 +1,1 @@
-web: python DataManipulator.py
+web: python app.py
