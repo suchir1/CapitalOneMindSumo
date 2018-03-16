@@ -10,7 +10,6 @@ delay_times = {}
 district_freq = {}
 
 for i in range(len(dataSet['dispatch_timestamp'])):
-    print(i)
     if not pd.notnull(dataSet['dispatch_timestamp'][i]) or not pd.notnull(dataSet['supervisor_district'][i]):
         continue
     dispatch = datetime.datetime.strptime(dataSet['dispatch_timestamp'][i], "%Y-%m-%d %H:%M:%S.%f %Z")
@@ -21,7 +20,6 @@ for i in range(len(dataSet['dispatch_timestamp'])):
         district_freq[dataSet['supervisor_district'][i]] = 0
     delay_times[dataSet['supervisor_district'][i]] = delay_times[dataSet['supervisor_district'][i]] + dispatch.timestamp()-received.timestamp()
     district_freq[dataSet['supervisor_district'][i]] = district_freq[dataSet['supervisor_district'][i]] +1
-    print(delay_times[dataSet['supervisor_district'][i]])
 
 for key in delay_times:
     delay_times[key] = delay_times[key]/district_freq[key]
