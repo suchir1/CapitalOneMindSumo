@@ -39,6 +39,27 @@ print(delay_times)
 trace = go.Bar(x = x, y=y)
 
 data = [trace]
+layout = go.Layout(
+    title='On-Scene Delay by Unit Type',
+    font=dict(family='Courier New, monospace', size=18, color='#1E8449'),
+    xaxis=dict(
+        title='Unit Type',
+        titlefont=dict(
+            family='Courier New, monospace',
+            size=18,
+            color='#7D3C98'
+        )
+    ),
+    yaxis=dict(
+        title='Delay to get On the Scene (seconds)',
+        titlefont=dict(
+            family='Courier New, monospace',
+            size=18,
+            color='#7D3C98'
+        )
+    )
+)
+fig = go.Figure(data=data, layout=layout)
 
-plotly.offline.plot(data, filename='OnSceneDelayByUnitType.html')
+plotly.offline.plot(fig, filename='OnSceneDelayByUnitType.html')
 
