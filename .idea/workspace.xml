@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a5bafdf8-428a-4c7d-b0fb-8581c6301400" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DelayGrapherByCallType.py" afterPath="$PROJECT_DIR$/DelayGrapherByCallType.py" />
-      <change beforePath="$PROJECT_DIR$/DelayGrapherByHour.py" afterPath="$PROJECT_DIR$/DelayGrapherByHour.py" />
-      <change beforePath="$PROJECT_DIR$/DelayGrapherByUnitType.py" afterPath="$PROJECT_DIR$/DelayGrapherByUnitType.py" />
-      <change beforePath="$PROJECT_DIR$/DispatchDelayByHour.html" afterPath="$PROJECT_DIR$/DispatchDelayByHour.html" />
-      <change beforePath="$PROJECT_DIR$/OnSceneDelayByCallType.html" afterPath="$PROJECT_DIR$/OnSceneDelayByCallType.html" />
-      <change beforePath="$PROJECT_DIR$/OnSceneDelayByCallTypeGroup.html" afterPath="$PROJECT_DIR$/OnSceneDelayByCallTypeGroup.html" />
-      <change beforePath="$PROJECT_DIR$/OnSceneDelayByUnitType.html" afterPath="$PROJECT_DIR$/OnSceneDelayByUnitType.html" />
-      <change beforePath="$PROJECT_DIR$/Website HTML/datavisuals.html" afterPath="$PROJECT_DIR$/Website HTML/datavisuals.html" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +39,8 @@
       <file leaf-file-name="DelayGrapherByHour.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DelayGrapherByHour.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="352">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -477,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521605826085</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Progress on Website and Data Visualization">
+      <created>1521851534834</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1521851534834</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -516,7 +515,8 @@
     <MESSAGE value="Added onscene delay graphs based on many different things" />
     <MESSAGE value="Added Website HTML" />
     <MESSAGE value="Progress on Website, heatmaps section should be finished!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Progress on Website, heatmaps section should be finished!" />
+    <MESSAGE value="Progress on Website and Data Visualization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress on Website and Data Visualization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -838,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DelayGrapherByHour.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="352">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
