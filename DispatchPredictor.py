@@ -17,7 +17,11 @@ for i in range(len(dataSet['received_timestamp'])):
     if not pd.notnull(dataSet['address'][i]) or not pd.notnull(dataSet['received_timestamp'][i]):
         continue
     received = datetime.datetime.strptime(dataSet['received_timestamp'][i], "%Y-%m-%d %H:%M:%S.%f %Z")
-    key = dataSet['address'][i]+" " + str(received.hour)
+    hour = received.hour
+    hour = str(hour)
+    if len(hour)==1:
+        hour = "0"+hour
+    key = dataSet['address'][i]+" " + hour
     key = key.lower()
     if key not in dispatchDict:
         dispatchDict[key] = {}
