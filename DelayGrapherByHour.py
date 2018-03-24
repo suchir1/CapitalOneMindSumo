@@ -37,8 +37,6 @@ for key in x:
 
 print(delay_times)
 
-
-
 trace = go.Scatter(x = x, y=y)
 
 layout = go.Layout(
