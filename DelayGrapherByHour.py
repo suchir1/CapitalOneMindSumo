@@ -17,12 +17,12 @@ for i in range(len(dataSet['dispatch_timestamp'])):
         continue
     dispatch = datetime.datetime.strptime(dataSet['dispatch_timestamp'][i], "%Y-%m-%d %H:%M:%S.%f %Z")
     received = datetime.datetime.strptime(dataSet['received_timestamp'][i], "%Y-%m-%d %H:%M:%S.%f %Z")
-    if dataSet['received_timestamp'][i][0:13] not in delay_times:
-        delay_times[dataSet['received_timestamp'][i][0:13]] = 0
-    if dataSet['received_timestamp'][i][0:13] not in district_freq:
-        district_freq[dataSet['received_timestamp'][i][0:13]] = 0
-    delay_times[dataSet['received_timestamp'][i][0:13]] = delay_times[dataSet['received_timestamp'][i][0:13]] + dispatch.timestamp()-received.timestamp()
-    district_freq[dataSet['received_timestamp'][i][0:13]] = district_freq[dataSet['received_timestamp'][i][0:13]] +1
+    if dataSet['received_timestamp'][i][11:13] not in delay_times:
+        delay_times[dataSet['received_timestamp'][i][11:13]] = 0
+    if dataSet['received_timestamp'][i][11:13] not in district_freq:
+        district_freq[dataSet['received_timestamp'][i][11:13]] = 0
+    delay_times[dataSet['received_timestamp'][i][11:13]] = delay_times[dataSet['received_timestamp'][i][11:13]] + dispatch.timestamp()-received.timestamp()
+    district_freq[dataSet['received_timestamp'][i][11:13]] = district_freq[dataSet['received_timestamp'][i][11:13]] +1
 
 x = list()
 y = list()
@@ -42,12 +42,30 @@ print(delay_times)
 trace = go.Scatter(x = x, y=y)
 
 layout = go.Layout(
+    title='On-Scene Delay by Hour',
+    font=dict(family='Courier New, monospace', size=16, color='#1E8449'),
+    xaxis=dict(
+        title='Hour',
+        titlefont=dict(
+            family='Courier New, monospace',
+            size=14,
+            color='#7D3C98'
+        )
+    ),
     yaxis=dict(
-        range=[0, 1100]
+        title='Average Delay to get On the Scene (seconds)',
+        range=[0, 1100],
+        titlefont=dict(
+            family='Courier New, monospace',
+            size=14,
+            color='#7D3C98'
+        )
     )
 )
 
+
+
 data = [trace]
 fig = go.Figure(data=data, layout=layout)
-plotly.offline.plot(fig, filename='DispatchDelayByHour.html')
+plotly.offline.plot(fig, filename='On-Scene Delay by Hour.html')
 

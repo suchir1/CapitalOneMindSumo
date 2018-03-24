@@ -41,20 +41,20 @@ trace = go.Bar(x = x, y=y)
 data = [trace]
 layout = go.Layout(
     title='On-Scene Delay by Unit Type',
-    font=dict(family='Courier New, monospace', size=18, color='#1E8449'),
+    font=dict(family='Courier New, monospace', size=16, color='#1E8449'),
     xaxis=dict(
         title='Unit Type',
         titlefont=dict(
             family='Courier New, monospace',
-            size=18,
+            size=14,
             color='#7D3C98'
         )
     ),
     yaxis=dict(
-        title='Delay to get On the Scene (seconds)',
+        title='Average Delay to get On the Scene (seconds)',
         titlefont=dict(
             family='Courier New, monospace',
-            size=18,
+            size=14,
             color='#7D3C98'
         )
     )

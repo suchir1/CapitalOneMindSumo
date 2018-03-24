@@ -17,12 +17,12 @@ for i in range(len(dataSet['on_scene_timestamp'])):
         continue
     on_scene = datetime.datetime.strptime(dataSet['on_scene_timestamp'][i], "%Y-%m-%d %H:%M:%S.%f %Z")
     received = datetime.datetime.strptime(dataSet['received_timestamp'][i], "%Y-%m-%d %H:%M:%S.%f %Z")
-    if dataSet['call_type_group'][i] not in delay_times:
-        delay_times[dataSet['call_type_group'][i]] = 0
-    if dataSet['call_type_group'][i] not in district_freq:
-        district_freq[dataSet['call_type_group'][i]] = 0
-    delay_times[dataSet['call_type_group'][i]] = delay_times[dataSet['call_type_group'][i]] + on_scene.timestamp()-received.timestamp()
-    district_freq[dataSet['call_type_group'][i]] = district_freq[dataSet['call_type_group'][i]] +1
+    if dataSet['call_type'][i] not in delay_times:
+        delay_times[dataSet['call_type'][i]] = 0
+    if dataSet['call_type'][i] not in district_freq:
+        district_freq[dataSet['call_type'][i]] = 0
+    delay_times[dataSet['call_type'][i]] = delay_times[dataSet['call_type'][i]] + on_scene.timestamp()-received.timestamp()
+    district_freq[dataSet['call_type'][i]] = district_freq[dataSet['call_type'][i]] +1
 
 x = list()
 y = list()
@@ -39,6 +39,27 @@ print(delay_times)
 trace = go.Bar(x = x, y=y)
 
 data = [trace]
+layout = go.Layout(
+    title='On-Scene Delay by Call Type',
+    font=dict(family='Courier New, monospace', size=16, color='#1E8449'),
+    xaxis=dict(
+        title='Call Type',
+        titlefont=dict(
+            family='Courier New, monospace',
+            size=14,
+            color='#7D3C98'
+        )
+    ),
+    yaxis=dict(
+        title='Average Delay to get On the Scene (seconds)',
+        titlefont=dict(
+            family='Courier New, monospace',
+            size=14,
+            color='#7D3C98'
+        )
+    )
+)
+fig = go.Figure(data=data, layout=layout)
 
-plotly.offline.plot(data, filename='OnSceneDelayByCallTypeGroup.html')
+plotly.offline.plot(fig, filename='OnSceneDelayByCallType.html')
 
