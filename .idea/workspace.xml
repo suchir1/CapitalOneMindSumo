@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5bafdf8-428a-4c7d-b0fb-8581c6301400" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DelayGrapherBySupervisorDistrict.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TrainCounter.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/OnSceneDelayByCallType.html" afterPath="$PROJECT_DIR$/OnSceneDelayByCallType.html" />
-      <change beforePath="$PROJECT_DIR$/Website HTML/datavisuals.html" afterPath="$PROJECT_DIR$/Website HTML/datavisuals.html" />
-      <change beforePath="$PROJECT_DIR$/Website HTML/delayAnalysis.html" afterPath="$PROJECT_DIR$/Website HTML/delayAnalysis.html" />
-      <change beforePath="$PROJECT_DIR$/Website HTML/dispatchPredictor.html" afterPath="$PROJECT_DIR$/Website HTML/dispatchPredictor.html" />
-      <change beforePath="$PROJECT_DIR$/Website HTML/elements.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Website HTML/heatmaps.html" afterPath="$PROJECT_DIR$/Website HTML/heatmaps.html" />
-      <change beforePath="$PROJECT_DIR$/Website HTML/index.html" afterPath="$PROJECT_DIR$/Website HTML/index.html" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -563,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521935303953</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Delay Analysis Finished!">
+      <created>1521945718644</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1521945718644</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -605,7 +603,8 @@
     <MESSAGE value="Progress on Website and Data Visualization" />
     <MESSAGE value="Dispatch Predictor almost completed!" />
     <MESSAGE value="Dispatch Predictor should be finished!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dispatch Predictor should be finished!" />
+    <MESSAGE value="Delay Analysis Finished!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delay Analysis Finished!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
