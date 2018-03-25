@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5bafdf8-428a-4c7d-b0fb-8581c6301400" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/DelayGrapherBySupervisorDistrict.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TrainCounter.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DispatchPredictor.py" afterPath="$PROJECT_DIR$/DispatchPredictor.py" />
+      <change beforePath="$PROJECT_DIR$/OnSceneDelayByCallType.html" afterPath="$PROJECT_DIR$/OnSceneDelayByCallType.html" />
+      <change beforePath="$PROJECT_DIR$/Website HTML/datavisuals.html" afterPath="$PROJECT_DIR$/Website HTML/datavisuals.html" />
+      <change beforePath="$PROJECT_DIR$/Website HTML/delayAnalysis.html" afterPath="$PROJECT_DIR$/Website HTML/delayAnalysis.html" />
       <change beforePath="$PROJECT_DIR$/Website HTML/dispatchPredictor.html" afterPath="$PROJECT_DIR$/Website HTML/dispatchPredictor.html" />
+      <change beforePath="$PROJECT_DIR$/Website HTML/elements.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Website HTML/heatmaps.html" afterPath="$PROJECT_DIR$/Website HTML/heatmaps.html" />
+      <change beforePath="$PROJECT_DIR$/Website HTML/index.html" afterPath="$PROJECT_DIR$/Website HTML/index.html" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,18 +26,54 @@
       <file leaf-file-name="DelayGrapherByCallType.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DelayGrapherByCallType.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DelayGrapherBySupervisorDistrict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DelayGrapherBySupervisorDistrict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrainCounter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TrainCounter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnSceneDelayBySupervisorDistrict.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OnSceneDelayBySupervisorDistrict.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="1223" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DispatchPredictor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DispatchPredictor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DispatchPredictor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
-              <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -43,9 +86,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="656">
               <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,10 +122,10 @@
       <find>dataSet['received_timestamp'][i][11:13]</find>
       <find>on_scene</find>
       <find>call_date</find>
-      <find>call_type</find>
       <find>call_type_group</find>
       <find>0:13</find>
       <find>number of call</find>
+      <find>call_type</find>
     </findStrings>
     <replaceStrings>
       <replace>supervisor</replace>
@@ -98,6 +139,7 @@
       <replace>unit_type</replace>
       <replace>call_type</replace>
       <replace>11:13</replace>
+      <replace>supervisor_district</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -126,6 +168,8 @@
         <option value="$PROJECT_DIR$/DelayGrapherByHour.py" />
         <option value="$PROJECT_DIR$/DelayGrapherByCallType.py" />
         <option value="$PROJECT_DIR$/DispatchPredictor.py" />
+        <option value="$PROJECT_DIR$/DelayGrapherBySupervisorDistrict.py" />
+        <option value="$PROJECT_DIR$/TrainCounter.py" />
       </list>
     </option>
   </component>
@@ -187,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DispatchPredictor">
+  <component name="RunManager" selected="Python.TrainCounter">
     <configuration name="DelayGrapherByHour" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,6 +245,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CapitalOneMindSumo" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DelayGrapherByHour.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="DelayGrapherBySupervisorDistrict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CapitalOneMindSumo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DelayGrapherBySupervisorDistrict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,24 +286,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="DelayGrapherByUnitType" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CapitalOneMindSumo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DelayGrapherByUnitType.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="DispatchPredictor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,7 +304,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="TrendGrapher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TrainCounter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -272,26 +316,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CapitalOneMindSumo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DelayGrapherByDay.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TrainCounter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.TrendGrapher" />
-      <item index="1" class="java.lang.String" itemvalue="Python.DelayGrapherByHour" />
-      <item index="2" class="java.lang.String" itemvalue="Python.DelayGrapherByUnit" />
-      <item index="3" class="java.lang.String" itemvalue="Python.DelayGrapherByUnitType" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DispatchPredictor" />
+      <item index="0" class="java.lang.String" itemvalue="Python.DelayGrapherByHour" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DelayGrapherByUnit" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DispatchPredictor" />
+      <item index="3" class="java.lang.String" itemvalue="Python.DelayGrapherBySupervisorDistrict" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TrainCounter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DispatchPredictor" />
-        <item index="1" class="java.lang.String" itemvalue="Python.DelayGrapherByUnit" />
-        <item index="2" class="java.lang.String" itemvalue="Python.DelayGrapherByHour" />
-        <item index="3" class="java.lang.String" itemvalue="Python.DelayGrapherByUnitType" />
-        <item index="4" class="java.lang.String" itemvalue="Python.TrendGrapher" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TrainCounter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DelayGrapherBySupervisorDistrict" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DispatchPredictor" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DelayGrapherByUnit" />
+        <item index="4" class="java.lang.String" itemvalue="Python.DelayGrapherByHour" />
       </list>
     </recent_temporary>
   </component>
@@ -512,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521934589169</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Dispatch Predictor should be finished!">
+      <created>1521935303953</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1521935303953</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -553,37 +604,14 @@
     <MESSAGE value="Progress on Website, heatmaps section should be finished!" />
     <MESSAGE value="Progress on Website and Data Visualization" />
     <MESSAGE value="Dispatch Predictor almost completed!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dispatch Predictor almost completed!" />
+    <MESSAGE value="Dispatch Predictor should be finished!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dispatch Predictor should be finished!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DelayGrapherByUnitType.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DelayTimeCalculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DispatchDelayCalculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HeatmapCreator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -847,24 +875,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
           <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnSceneDelayBySupervisorDistrict.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="1223" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DelayGrapherByCallType.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DispatchPredictor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
-          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DelayGrapherBySupervisorDistrict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrainCounter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
